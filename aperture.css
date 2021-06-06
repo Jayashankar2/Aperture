@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.login_page{
+	padding: 200px 60px 185px 100px;
+	display: flex;
+	justify-content: space-between;
+	background: #e6e6e6;
+}
+.site_title h1{
+	font-size: 100px;
+	font-family: arial;
+	text-shadow: 0 0 30px #929292;
+}
+.site_title h1 span{
+	color: red;
+}
+.site_title p{
+	margin-top: 10px;
+	font-family: calibri;
+	letter-spacing: 15px;
+	text-shadow: 0 0 30px #929292;
+}
+.site_login_form form{
+	margin-top: -40px;
+	text-align: center;
+	padding: 40px 20px;
+	width: 400px;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 0 0 30px #929292;
+}
+.site_login_form form input{
+	margin-top: 10px;
+	width: 300px;
+	padding: 10px;
+	border: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.site_login_form form input:hover{
+	transition: 0.5s;
+	border-left: 30px solid black;
+	border-right: 30px solid black;
+	border-color: red;
+}
+.site_login_form form button{
+	margin-top: 10px;
+	width: 325px;
+	height: 40px;
+	border: none;
+	background: black;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	font-family: calibri;
+}
+.site_login_form form button:hover{
+	transition: 1s;
+	box-shadow: 0 0 30px red;
+	background: red;
+}
+.login_links p {
+	margin-top: 10px;
+}
+.login_links p a{
+	text-decoration: none;
+	color: black;
+}
+.login_links p a:hover{
+	border-bottom: 1px solid black;
+}
+
+/*--------------------------------------SIGNUP PAGE-----------------------------------------*/
+
+.signup_page{
+	text-align: center;
+}
+.signup_form{
+	margin: 60px 100px;
+	padding: 20px 0 40px 0;
+	border: 2px solid black;
+	border-style: dashed;
+}
+.signup_form h1{
+	font-size: 40px;
+	font-family: arial;
+}
+.signup_form h1 > span{
+	color: red;
+}
+.signup_form form{
+	margin-top: 50px;
+}
+
+.signup_form form input{
+	text-align: center;
+	margin-top: 10px;
+	width: 300px;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 15px;
+	border:none;
+	border: 1px solid black;
+}
+.signup_form form input:hover{
+	transition: 0.5s;
+	border-right: 30px solid black;
+	border-left: 30px solid black;
+	border-color: red;
+}
+.signup_form form button{
+	margin-top: 10px;
+	width: 325px;
+	height: 35px;
+	border-radius: 5px;
+	border: none;
+	background: black;
+	color: white;
+	font-size: 20px;
+	font-family: calibri;
+}
+.signup_form form button:hover{
+	transition: 1s;
+	background: red;
+	box-shadow: 0 0 30px red;
+}
+.signup_form form p{
+	margin-top: 10px;
+	font-family: calibri;
+}
+.signup_form form p a{
+	text-decoration: none;
+	color: black;
+}
+.signup_form form p a:hover{
+	border-bottom: 1px solid black;
+}

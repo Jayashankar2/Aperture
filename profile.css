@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body header{
+	background: black;
+	box-shadow: 0 0 10px black;
+}
+.profile_header_section{
+	padding: 5px 10px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid white;
+}
+.profile_header_section > p{
+	font-family: arial;
+	color: white;
+	font-size: 20px;
+}
+.profile_header_section a{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+}
+header nav{
+	padding: 10px 40px 40px 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.account_info{
+	display: flex;
+}
+.fullname_bio p{
+	color: white;
+	font-family: arial;
+}
+.account_info img{
+	margin-top: 20px;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+}
+.follower_info a{
+	margin: 40px 5px 10px 0;
+	padding: 20px 10px 10px 10px;
+	text-decoration: none;
+	background: red;
+	width: 150px;
+	box-shadow: 0 0 10px red;
+	border-radius: 5px;
+}
+.follower_info a:hover{
+	transition: 0.5s;
+	background: white;/*#ff3131*/
+	box-shadow: 0 0 10px white;
+}
+.follower_info a:hover h1{
+	transition: 0.5s;
+	color: black;
+}
+.follower_info a h1{
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	font-family: arial;
+}
+.follower_info{
+	margin-left: -100px;
+	display: flex;
+}
+.fullname_bio {
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.edit_button{
+	margin:0 10px 10px 30px;
+	width: 95%;
+	height: 40px;
+	background: none;
+	border: none;
+	border: 1px solid white;
+	color: black;
+	font-size: 18px;
+	font-family: arial;
+	border-radius: 2px;
+	color: white;
+}/*https://t.co/bN0qkPM4yi?amp=1*/
+.edit_button:hover{
+	transition: 0.5s;
+	box-shadow: 0 0 10px white;
+	background: white;
+	color: black;
+}

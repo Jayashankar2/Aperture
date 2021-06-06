@@ -1,0 +1,193 @@
+/*-----------------------------------HOME PAGE HEADER SECTION---------------------------------------*/
+*{
+	margin: 0;
+	padding: 0;
+}
+nav{
+	background: black;	
+	height: 80px;
+	width: 100%;
+	box-shadow: 0 0 10px black;
+	position: fixed;
+	transform: translate(0, 0);
+	top: 0;
+	left: 0;
+}
+nav .nav_list_1{
+	display: flex;
+	justify-content: space-between;
+}
+nav .nav_list_1{
+	list-style: none;
+}
+nav .nav_list_1 > li{
+	margin: 20px;
+}
+nav .nav_list_1 li h1{
+	color: white;
+	font-family: arial;
+	font-size: 30px;
+}
+nav .nav_list_1 li h1 span{
+	color: red;
+}
+nav .nav_list_1 > li > a{
+	padding: 10px;
+	line-height: 40px;
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-size: 18px;
+}
+nav .nav_list_1 > li > a:hover{
+	transition: 0.5s;
+	border-bottom: 2px solid red;
+}
+nav .nav_list_1 li div{
+	margin-right: 40px;
+	width: 100px;
+}
+nav .nav_list_1 li div img{
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+}
+nav .nav_list_1 > li > div > p{
+	margin-left: 10px;
+	color: white;
+	font-family: arial;
+	line-height: 40px;
+}
+nav .nav_list_1 li div{
+	display: flex;
+}
+nav .nav_list_2{
+	padding-top: 20px;
+	width: 140px;
+	display: none;
+	position: absolute;
+	text-align: center;
+	background: black;
+	list-style: none;
+}
+.nav_list_2 > li > a{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-size: 17px;
+}
+.nav_list_2 > li > a > p{
+	padding: 10px;
+}
+.nav_link:hover{
+	background: #353535;
+}
+.logout_button:hover{
+	background: red;
+}
+nav ul li:hover ul{
+	display: block;
+	box-shadow: 0 0 10px black;
+}
+
+/*-----------------------------------SEARCH PAGE---------------------------------------*/
+
+.searchpage_section{
+	margin: 100px 50px;
+	padding: 20px;
+	text-align: center;
+	background: #e6e6e6;
+	height: auto;
+}
+.searchpage_section > form{
+
+}
+.searchpage_section > form > input{
+	width: 500px;
+	padding: 10px;
+	border: none;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 15px;
+}	
+.searchpage_section > form > input:hover{
+	border-color: red;
+}
+.searchpage_section > form > button{
+	border: none;
+	width: 100px;
+	height: 42px;
+	border-radius: 5px;
+	background: black;
+	color: white;
+	font-size: 17px;
+}
+.searchpage_section > form > button:hover{
+	transition: 1s;
+	background: red;
+	box-shadow: 0 0 30px red;
+}
+
+/*-----------------------------------UPLOAD PAGE---------------------------------------*/
+
+.uploadpage_section{
+	text-align: center;
+	margin: 150px 60px 0 60px;
+}
+.file_upload_section{
+	text-align: center;
+}
+.custom_button{
+	padding: 10px;
+	background: black;
+	border: none;
+	color: white;
+	font-family: calibri;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.custom_text{
+	font-size: 16px;
+	font-family: calibri;
+}
+.real_submit_button{
+	margin-top: 10px;
+	width: 120px;
+	height: 40px;
+	border: none;
+	font-size: 20px;
+	font-family: calibri;
+	border-radius: 10px;
+	background: none;
+	border: 1px solid red;
+	color: black;
+}
+.real_submit_button:hover{
+	transition: 0.5s;
+	background: red;
+	color: white;
+	box-shadow: 0 0 20px red;
+}
+.upload_border form p{
+	margin-top: 20px;
+	font-family: calibri;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+.post_upload{
+	padding:100px;
+	border: 2px solid red;
+	border-radius: 10px;
+	border-style: dashed;
+}
+.post_title_upload{
+	margin-top: 20px;
+	width: 300px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: calibri;
+	border: 1px solid black;
+}
